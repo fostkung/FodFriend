@@ -23,6 +23,9 @@
             android:layout_height="match_parent">
 
             <LinearLayout
+                android:background="#80FFFFFF"
+                android:padding="28dp"
+                android:layout_margin="28dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
