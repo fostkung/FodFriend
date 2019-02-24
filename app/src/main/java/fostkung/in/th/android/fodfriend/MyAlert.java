@@ -5,12 +5,14 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 
 public class MyAlert {
+
     private Context context;
 
-    public  MyAlert(Context context){
+    public MyAlert(Context context) {
         this.context = context;
     }
-    public void normalDialog(String title, String message){
+
+    public void normalDialog(String title, String message) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle(title);
@@ -22,5 +24,9 @@ public class MyAlert {
             }
         });
         builder.show();
+
+
     }
+
+
 }
