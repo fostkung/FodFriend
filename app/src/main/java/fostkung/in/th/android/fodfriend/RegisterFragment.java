@@ -18,6 +18,8 @@ import android.view.ViewGroup;
  */
 public class RegisterFragment extends Fragment {
 
+//    Explicit
+    private boolean aBoolean = true;
 
     public RegisterFragment() {
         // Required empty public constructor
@@ -34,8 +36,20 @@ public class RegisterFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (item.getItemId() == R.id.itemUpload) {
+
+            checkValue();
+        }
         return super.onOptionsItemSelected(item);
     }
+
+    private void checkValue() {
+        if (aBoolean){
+//            Non Choose Image
+            
+        }
+    }// checkValue
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
