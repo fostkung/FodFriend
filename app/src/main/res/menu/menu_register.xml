@@ -6,14 +6,5 @@
         android:icon="@drawable/ic_action_upload"
         android:id="@+id/itemUpload"
         android:title="Register" />
-    <item
-        app:showAsAction="always"
-        android:icon="@drawable/ic_action_upload"
-        android:id="@+id/itemUpload"
-        android:title="Register" />
-    <item
-        app:showAsAction="always"
-        android:icon="@drawable/ic_action_upload"
-        android:id="@+id/itemUpload"
-        android:title="Register" />
+
 </menu>
